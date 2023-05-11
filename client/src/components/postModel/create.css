@@ -1,0 +1,51 @@
+.createpost-container{
+    position: absolute;
+    top: 70px;
+    height: 200vh;
+    width: 100%;
+    z-index: 55;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.createpost {
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+    transform: translate(0, 30%);
+    box-shadow: 0 2px 4px 8px rgba(0, 0, 0, .3);
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 20px;
+}
+
+.createpost input {
+    margin: 10px;
+    width: 90%;
+    height: 20px;
+}
+.createpost button {
+    width: 93%;
+    margin-top: 10px;
+    height: 25px;
+    cursor: pointer;
+    background-color: rgb(144, 144, 214);
+    border: none;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, .3);
+}
+.createpost label{
+    text-transform: capitalize;
+}
+.createform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.createform textarea{
+    width: 90%;
+    height: 80px;
+    overflow-y: scroll;
+    resize: none;
+}
+.createpost button:hover{
+    opacity: .7;
+}

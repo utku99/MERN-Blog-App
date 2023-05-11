@@ -1,0 +1,40 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    background-color: black;
+    position: relative;
+    flex-wrap: nowrap;
+    box-shadow: 0 5px 10px rgba(194, 76, 194, 0.4);
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    margin: 0 30px;
+}
+
+.navbar p {
+    color: white;
+    margin-left: 100px;
+    text-transform: capitalize;
+}
+
+.navbar a:hover {
+    background-color: rgba(194, 76, 194, 0.5);
+    border-radius: 10%;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar {
+        flex-direction: row;
+        height: 150px;
+    }
+
+    .linkstyle {
+        display: flex;
+        flex-direction: column;
+        line-height: 30px;
+    }
+}
